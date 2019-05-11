@@ -12,7 +12,7 @@
                         <!---------------------------------->
                         <div class="row pad-btm">
                             <div class="col-sm-6 toolbar-left">
-                                <button id="btn-addrow" class="btn btn-purple">Add New</button>
+                                <a href="{{ route('user.create') }}" id="btn-addrow" class="btn btn-purple">Add New</a>
                                 <button class="btn btn-default"><i class="pli-printer"></i></button>
                             </div>
                             <div class="col-sm-6 toolbar-right text-right">
