@@ -101,11 +101,17 @@
 						
 						            <!--Menu list item-->
 						            <li class="{{ $module == 'Dashboard' ? 'active-link' : '' }}">
-						                <a href="#">
+						                <a href="{{ route('dashboard.index') }}">
 						                    <i class="pli-quill-2"></i>
 						                    <span class="menu-title">{{ _('Dashboard') }}</span>
 						                </a>
 						            </li>
+                                    <li class="{{ $module == 'User' ? 'active-link' : '' }}">
+                                        <a href="{{ route('user.index') }}">
+                                            <i class="pli-user"></i>
+                                            <span class="menu-title">{{ _('User Management') }}</span>
+                                        </a>
+                                    </li>
 						
 						            <li class="list-divider"></li>
 
